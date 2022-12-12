@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Prestamo
+comment1.params=ejemplar\ inicio\ fin
+comment1.target=Prestamo(Ejemplar,\ java.time.LocalDate,\ java.time.LocalDate)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Libro\r\n
+comment2.params=
+comment2.target=java.time.LocalDate\ getInicio()
+comment3.params=inicio
+comment3.target=void\ setInicio(java.time.LocalDate)
+comment4.params=
+comment4.target=java.time.LocalDate\ getFin()
+comment5.params=fin
+comment5.target=void\ setFin(java.time.LocalDate)
+numComments=6

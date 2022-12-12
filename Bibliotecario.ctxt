@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Bibliotecario
+comment0.text=\r\n\ Encargado\ de\ gestionar\ y\ administrar\ la\ biblioteca.\r\n\ \r\n\ @author\ (Kevin\ Anaya,\ Laura\ Mendez)\ \r\n\ @version\ (1)\r\n
+comment1.params=nombreUsuario\ contrase\u00F1a\ correo\ id
+comment1.target=Bibliotecario(java.lang.String,\ java.lang.String,\ java.lang.String,\ int)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Biblioteccario\r\n
+numComments=2

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Ejemplar
+comment0.text=\r\n\ Asignar\ un\ identificador\ a\ cada\ copia\ de\ un\ libro.\r\n\ Contener\ el\ estado\ del\ libro\:\ prestado,\ disponible,\ retrasado\r\n\ \r\n\ @author(Kevin\ Anaya,\ Laura\ Mendez)\r\n\ @version\ (1)\r\n
+comment1.params=estado\ id\ libro
+comment1.target=Ejemplar(java.lang.String,\ int,\ Libro)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Libro\r\n
+comment2.params=
+comment2.target=java.lang.String\ getEstado()
+comment3.params=estado
+comment3.target=void\ setEstado(java.lang.String)
+comment4.params=
+comment4.target=int\ getId()
+numComments=5

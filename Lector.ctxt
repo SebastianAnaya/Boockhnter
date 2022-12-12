@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=Lector
+comment1.params=nombreUsuario\ contrase\u00F1a\ correo\ id\ fechaNacimiento\ nombre\ apellidos\ direccion\ telefono
+comment1.target=Lector(java.lang.String,\ java.lang.String,\ java.lang.String,\ int,\ java.time.LocalDate,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ int)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Lector\r\n
+comment10.params=
+comment10.target=int\ getTelefono()
+comment11.params=teelfono
+comment11.target=void\ setTelefono(int)
+comment2.params=
+comment2.target=java.time.LocalDate\ getFechaNacimiento()
+comment3.params=fechaNacimiento
+comment3.target=void\ setFechaNacimiento(java.time.LocalDate)
+comment4.params=
+comment4.target=java.lang.String\ getNombre()
+comment5.params=nombre
+comment5.target=void\ setNombre(java.lang.String)
+comment6.params=
+comment6.target=java.lang.String\ getApellidos()
+comment7.params=apellidos
+comment7.target=void\ setApellidos(java.lang.String)
+comment8.params=
+comment8.target=java.lang.String\ getDireccion()
+comment9.params=direccion
+comment9.target=void\ setDireccion(java.lang.String)
+numComments=12

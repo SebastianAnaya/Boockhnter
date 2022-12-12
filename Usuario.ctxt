@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Usuario
+comment0.text=\r\n\ Crea\ la\ estructua\ basica\ de\ los\ usuarios\ de\ la\ aplicacion\r\n\ \r\n\ @author\ (Kevin\ Anaya,\ Laura\ Mendez)\ \r\n\ @version\ (1)\r\n
+comment1.params=nombreUsuario\ contrase\u00F1a\ correo\ id
+comment1.target=Usuario(java.lang.String,\ java.lang.String,\ java.lang.String,\ int)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Libro\r\n
+comment2.params=
+comment2.target=java.lang.String\ getNombreUsuario()
+comment3.params=nombreUsuario
+comment3.target=void\ setNombreUsuario(java.lang.String)
+comment4.params=
+comment4.target=java.lang.String\ getContrase\u00F1a()
+comment5.params=contrase\u00F1a
+comment5.target=void\ setContrase\u00F1a(java.lang.String)
+comment6.params=
+comment6.target=java.lang.String\ getCorreo()
+comment7.params=correo
+comment7.target=void\ setCorreo(java.lang.String)
+comment8.params=
+comment8.target=int\ getId()
+numComments=9
