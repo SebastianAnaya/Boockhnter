@@ -13,14 +13,35 @@ public class Prestamo
     // instance variables - replace the example below with your own
     private LocalDate inicio;
     private LocalDate fin;
-    private Ejemplar ejemplar;
+    //private Ejemplar ejemplar;
+    private Lector lector;
 
     /**
      * Constructor for objects of class Libro
      */
-    public Prestamo(Ejemplar ejemplar, LocalDate inicio, LocalDate fin) {
+    public Prestamo(){
+    }
+    public Prestamo(Lector lector, LocalDate inicio, LocalDate fin) {
         this.inicio = inicio;
         this.fin = fin;
+        this.lector = lector;
+//        this.ejemplar = ejemplar;
+    }
+
+ //   public Ejemplar getEjemplar() {
+   //     return ejemplar;
+    //}
+
+//    public void setEjemplar(Ejemplar ejemplar) {
+ //       this.ejemplar = ejemplar;
+   // }
+
+    public Lector getLector() {
+        return lector;
+    }
+
+    public void setLector(Lector lector) {
+        this.lector = lector;
     }
 
     public LocalDate getInicio() {
