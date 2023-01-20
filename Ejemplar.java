@@ -9,25 +9,29 @@
 import java.time.LocalDate;
 public class Ejemplar
 {
-    private String estado;
+    private boolean estadoPrestado;//si es false esta disponible y si es true esta prestado
     private int id;
     private Libro libro;
-    private boolean prestado=false;
+   // private boolean prestado=false;
     /**
      * Constructor for objects of class Libro
      */
-    public Ejemplar(String estado, int id, Libro libro) {
-        this.estado = estado;
+    public Ejemplar(boolean estadoPrestado, int id, Libro libro) {
+        this.estadoPrestado = estadoPrestado;
         this.id = id;
         this.libro = libro;
     }
-
-    public String getEstado() {
-        return estado;
+    
+    public Libro getLibro() {
+        return libro;
     }
 
-    public void setEstado(String estado) {
-        this.estado = estado;
+    public boolean getEstado() {
+        return estadoPrestado;
+    }
+
+    public void setEstado(boolean estadoPrestado) {
+        this.estadoPrestado = estadoPrestado;
     }
 
     public int getId() {
@@ -36,26 +40,29 @@ public class Ejemplar
 // para solicitar un prestamo primero hay quecrear un objeto de tipo prestamo
 // el cual tienela informacion del lector 
     public boolean prestarEjemplar(Prestamo prestamo){
-        if(prestado== false){
-            prestado = true;
+        String mensaje;
+        if(estadoPrestado== false){
+            estadoPrestado = true;
             LocalDate inicio = LocalDate.now();
             prestamo.setInicio(inicio);
             prestamo.setFin(inicio.plusDays(30));
-            
+            mensaje = "El ejemplar se presto con exito";
         }
         else{
-            System.out.println("Este ejemplar no esta disponible para prestamo");
+            mensaje = "Este ejemplar no esta disponible para prestamo";
         }
-        return prestado;
+        return estadoPrestado;
     }
     
     public boolean devolverEjemplar(){
-        if(prestado== true){
-            prestado = false;
+        String mensaje;
+        if(estadoPrestado== true){
+            estadoPrestado = false;
+            mensaje = "El ejemplar se devolvio con exito";
         }
         else{
-            System.out.println("Este ejemplar ya ha sido entregado o no ha sido prestado");
+            mensaje = "Este ejemplar ya ha sido entregado o no ha sido prestado";
         }
-        return prestado;
+        return estadoPrestado;
     }
 }

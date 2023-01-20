@@ -2,16 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1455ed95-1a03-4c29-a8fd-a111bf6b1455" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Biblioteca.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Biblioteca.ctxt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Biblioteca.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bibliotecario.class" beforeDir="false" afterPath="$PROJECT_DIR$/Bibliotecario.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boockhunter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Boockhunter.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Ejemplar.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ejemplar.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Ejemplar.ctxt" beforeDir="false" afterPath="$PROJECT_DIR$/Ejemplar.ctxt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Ejemplar.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ejemplar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lector.class" beforeDir="false" afterPath="$PROJECT_DIR$/Lector.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lector.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libro.class" beforeDir="false" afterPath="$PROJECT_DIR$/Libro.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Prestamo.class" beforeDir="false" afterPath="$PROJECT_DIR$/Prestamo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Prestamo.ctxt" beforeDir="false" afterPath="$PROJECT_DIR$/Prestamo.ctxt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Prestamo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Prestamo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Usuario.class" beforeDir="false" afterPath="$PROJECT_DIR$/Usuario.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/element-list" beforeDir="false" afterPath="$PROJECT_DIR$/doc/element-list" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/legal/ADDITIONAL_LICENSE_INFO" beforeDir="false" afterPath="$PROJECT_DIR$/doc/legal/ADDITIONAL_LICENSE_INFO" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/legal/ASSEMBLY_EXCEPTION" beforeDir="false" afterPath="$PROJECT_DIR$/doc/legal/ASSEMBLY_EXCEPTION" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/legal/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/doc/legal/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/logfile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/doc/logfile.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/doc/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/doc/stylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.bluej" beforeDir="false" afterPath="$PROJECT_DIR$/package.bluej" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,14 +46,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/UIS/2022-2/Ingenieria de Software/Boockhunter"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/UIS/2022-2/Ingenieria de Software/Boockhunter&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

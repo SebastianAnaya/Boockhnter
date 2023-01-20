@@ -19,7 +19,8 @@ public class Prestamo
     /**
      * Constructor for objects of class Libro
      */
-    public Prestamo(){
+    public Prestamo(Lector lector){
+        this.lector=lector;
     }
     public Prestamo(Lector lector, LocalDate inicio, LocalDate fin) {
         this.inicio = inicio;

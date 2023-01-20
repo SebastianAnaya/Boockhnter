@@ -1,7 +1,7 @@
 #BlueJ class context
 comment0.target=Prestamo
-comment1.params=
-comment1.target=Prestamo()
+comment1.params=lector
+comment1.target=Prestamo(Lector)
 comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Libro\r\n
 comment2.params=lector\ inicio\ fin
 comment2.target=Prestamo(Lector,\ java.time.LocalDate,\ java.time.LocalDate)

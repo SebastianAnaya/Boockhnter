@@ -2,7 +2,7 @@
 /**
  * Quien hace uso de los libros.
  * 
- * @author(Kevin Anaya, Laura Mendez)
+ * @author (Kevin Anaya, Laura Mendez) 
  * @version (1)
  */
 import java.time.LocalDate;
