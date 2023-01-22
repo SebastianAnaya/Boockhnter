@@ -24,7 +24,7 @@ public class main
        new Ejemplar(false,6, libro[1]),new Ejemplar(false,7, libro[2]),new Ejemplar(false,8, libro[2]),
        new Ejemplar(false,9, libro[2])};
        ArrayList<Prestamo> prestamos = new ArrayList();
-       Prestamo prestamo =  new Prestamo(lector[1]);
+       Prestamo prestamo =  new Prestamo(lector[1], ejemplar[2]);
        prestamos.add(prestamo);
        int caso=1, consulta;
        String nombreUser;
@@ -63,9 +63,16 @@ public class main
                     }
                     else if (caso==4){
                         for(int i=0; i<prestamos.size(); i++){
-                             System.out.println(prestamos.get(i).getLector().getNombreUsuario());
+                             System.out.println(i+1 + "------" +prestamos.get(i).getLector().getNombreUsuario());
                         }
-                        
+                        System.out.println("Que desea hacer? "); 
+                        System.out.println( "1: Aceptar prestamo  otro: Salir ");
+                        caso = entrada.nextInt();
+                        if(caso == 1){
+                            System.out.println("Ingrese el numero que acompaña su nombre de usuario para realizar un prestamo");
+                            consulta = entrada.nextInt();
+                            prestamos.get(consulta-1).aceptarPrestamo(); 
+                        }
                     }
                     else{
                         System.out.println("Ingreso incorrecto");
@@ -101,15 +108,17 @@ public class main
                             } 
                     }
                     else if (caso==3){
-                        
+                        System.out.println("Lista de usuarios");
                         for(int i=0; i<lector.length; i++){
                              System.out.println(i+1 + "------" + lector[i].getNombreUsuario());
                         }
                         System.out.println("Ingrese el numero que acompaña su nombre de usuario para realizar un prestamo");
                         consulta = entrada.nextInt();
-                        prestamo = new Prestamo(lector[consulta-1]);
+                        System.out.println("Ingrese el numero que acompaña el nombre del ejemplar a prestar");
+                        int consulta2 = entrada.nextInt();
+                        prestamo = new Prestamo(lector[consulta-1], ejemplar[consulta2-1]);
                         prestamos.add(prestamo);
-                        System.out.println("La solicitud del usuario "+ lector[consulta-1].getNombreUsuario() +" se ha procesado con exito");
+                        System.out.println("La solicitud del usuario "+ lector[consulta-1].getNombreUsuario() + " para el ejemplar de " + ejemplar[consulta2-1].getLibro().getNombre() +" se ha procesado con exito");
                         
                     }
                     System.out.println("Que desea hacer? "); 

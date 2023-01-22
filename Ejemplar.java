@@ -37,15 +37,11 @@ public class Ejemplar
     public int getId() {
         return id;
     }
-// para solicitar un prestamo primero hay quecrear un objeto de tipo prestamo
-// el cual tienela informacion del lector 
-    public boolean prestarEjemplar(Prestamo prestamo){
+
+    public boolean prestarEjemplar(){
         String mensaje;
         if(estadoPrestado== false){
             estadoPrestado = true;
-            LocalDate inicio = LocalDate.now();
-            prestamo.setInicio(inicio);
-            prestamo.setFin(inicio.plusDays(30));
             mensaje = "El ejemplar se presto con exito";
         }
         else{
