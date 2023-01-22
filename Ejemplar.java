@@ -37,7 +37,16 @@ public class Ejemplar
     public int getId() {
         return id;
     }
-
+    
+    /**
+     * 
+     * Este metodo se usa para aceptar el prestamo de un Ejemplar
+     * es invocado desde un objeto Prestamo que contiene a su vez un Ejemplar 
+     * 
+     * @return Devuelve el valor booleano del estado deprestamo del ejemplar, false significa que no esta prestado y true que si lo esta
+     * 
+     * 
+     */
     public boolean prestarEjemplar(){
         String mensaje;
         if(estadoPrestado== false){
@@ -50,6 +59,14 @@ public class Ejemplar
         return estadoPrestado;
     }
     
+    /**
+     * 
+     * Este metodo se usa para reasignar el estado  disponible de un libro una vez  se haya devuelto a biblioteca
+     * 
+     * @return Devuelve el valor booleano del estado deprestamo del ejemplar, false significa que no esta prestado y true que si lo esta
+     * 
+     * 
+     */
     public boolean devolverEjemplar(){
         String mensaje;
         if(estadoPrestado== true){
