@@ -19,7 +19,6 @@ public class Prestamo
      */
     public Prestamo(Lector lector, Ejemplar ejemplar){
         this.lector=lector;
-        this.ejemplar=ejemplar;
     }
     public Prestamo(Lector lector , LocalDate inicio, LocalDate fin) {
         this.inicio = inicio;
@@ -27,13 +26,8 @@ public class Prestamo
         this.lector = lector;
         this.ejemplar = ejemplar;
     }
-    
-    /**
-     * 
-     * Aceptar un prestamo creado apartir de un ejemplar y lector existentes 
-     * Este metodo es usado por el roll del bibliotecario
-     */
-    
+    //aceptar un prestamo creado apartir de un ejemplar y lector existentes 
+    //usado por bibliotcario
     public void aceptarPrestamo(){
         ejemplar.prestarEjemplar();
         if(ejemplar.getEstado()){

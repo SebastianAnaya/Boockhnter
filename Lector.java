@@ -7,7 +7,7 @@
  */
 import java.time.LocalDate;
 import java.util.Scanner; 
-public class Lector extends Usuario
+public class Lector extends Bibliotecario
 {
     // instance variables - replace the example below with your own
     private LocalDate fechaNacimiento;

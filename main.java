@@ -71,7 +71,7 @@ public class main
                         if(caso == 1){
                             System.out.println("Ingrese el numero que acompaña su nombre de usuario para realizar un prestamo");
                             consulta = entrada.nextInt();
-                            prestamos.get(consulta-1).aceptarPrestamo();
+                            prestamos.get(consulta-1).aceptarPrestamo(); 
                         }
                     }
                     else{
